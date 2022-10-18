@@ -2,27 +2,27 @@
 using namespace std;
 class FLOAT
 {
-	float a;
+	float b;
 	public:
-		FLOAT(float a)
+		FLOAT(float b)
 		{
-			this->a=a;
+			this->b=b;
 		}
 		float operator+(FLOAT F)
 		{
-			return(a+F.a);
+			return(b+F.b);
 		}
 		float operator-(FLOAT F)
 		{
-			return(a-F.a);
+			return(b-F.b);
 		}
 		float operator*(FLOAT F)
 		{
-			return(a*F.a);
+			return(b*F.b);
 		}
 		float operator/(FLOAT F)
 		{
-			return(a/F.a);
+			return(b/F.b);
 		}
 		  		
 };
