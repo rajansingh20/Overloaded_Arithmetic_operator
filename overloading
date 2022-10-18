@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+class FLOAT
+{
+	float a;
+	public:
+		FLOAT(float a)
+		{
+			this->a=a;
+		}
+		float operator+(FLOAT F)
+		{
+			return(a+F.a);
+		}
+		float operator-(FLOAT F)
+		{
+			return(a-F.a);
+		}
+		float operator*(FLOAT F)
+		{
+			return(a*F.a);
+		}
+		float operator/(FLOAT F)
+		{
+			return(a/F.a);
+		}
+		  		
+};
+int main()
+{
+	FLOAT f1(23.12),f2(20.12);
+	cout<<"\n\n Operator + : "<<f1+f2;
+	cout<<"\n\n Operator - : "<<f1-f2;
+	cout<<"\n\n Operator * : "<<f1*f2;
+	cout<<"\n\n Operator / : "<<f1/f2;
+return 0;
+}
