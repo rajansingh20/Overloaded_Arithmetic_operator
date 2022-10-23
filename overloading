@@ -34,5 +34,5 @@ int main()
 	cout<<"\n\n Operator - : "<<f1-f2;
 	cout<<"\n\n Operator * : "<<f1*f2;
 	cout<<"\n\n Operator / : "<<f1/f2;
-return 0;
+getch ();
 }
