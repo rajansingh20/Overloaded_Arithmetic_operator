@@ -29,10 +29,10 @@ class FLOAT1
 };
 int main()
 {
-	FLOAT1 f1(83.87),f2(30.72);
-	cout<<"\n\n Operator + : "<<f1+f2;
-	cout<<"\n\n Operator - : "<<f1-f2;
-	cout<<"\n\n Operator * : "<<f1*f2;
-	cout<<"\n\n Operator / : "<<f1/f2;
+	FLOAT1 F1(83.87),F2(30.72);
+	cout<<"\n\n Overloading Operator + : "<<F1+F2;
+	cout<<"\n\n Overloading Operator - : "<<F1-F2;
+	cout<<"\n\n Overloading Operator * : "<<F1*F2;
+	cout<<"\n\n Overloading Operator / : "<<F1/F2;
 return 0;
 }
