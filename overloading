@@ -1,27 +1,27 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-class FLOAT
+class FLOAT1
 {
 	float b;
 	public:
-		FLOAT(float b)
+		FLOAT1(float b)
 		{
 			this->b=b;
 		}
-		float operator+(FLOAT F)
+		float operator+(FLOAT1 F)
 		{
 			return(b+F.b);
 		}
-		float operator-(FLOAT F)
+		float operator-(FLOAT1 F)
 		{
 			return(b-F.b);
 		}
-		float operator*(FLOAT F)
+		float operator*(FLOAT1 F)
 		{
 			return(b*F.b);
 		}
-		float operator/(FLOAT F)
+		float operator/(FLOAT1 F)
 		{
 			return(b/F.b);
 		}
@@ -29,10 +29,10 @@ class FLOAT
 };
 int main()
 {
-	FLOAT f1(23.12),f2(20.12);
+	FLOAT1 f1(83.87),f2(30.72);
 	cout<<"\n\n Operator + : "<<f1+f2;
 	cout<<"\n\n Operator - : "<<f1-f2;
 	cout<<"\n\n Operator * : "<<f1*f2;
 	cout<<"\n\n Operator / : "<<f1/f2;
-getch ();
+return 0;
 }
