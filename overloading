@@ -3,6 +3,7 @@
 #include<conio.h>
 #include<math.h>
 #include<cstring>
+#include<format>
 using namespace std;
 class FLOAT1
 {
